@@ -1,0 +1,2 @@
+# Cluster-based-scan-matcher
+An approach to estimate the relative motion between couples of cloud points or range scans. The algorithm first identifies characteristic structural features in one of the scans using a clustering algorithm. Then, by projecting the other scan into the detected feature set and using a score function this projection is evaluated. By means of an iterative optimization method the motion between the two scans is obtained increasing in each iteration the number of clusters.
